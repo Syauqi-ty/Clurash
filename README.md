@@ -1,2 +1,2 @@
 # Clurash
-Clussify ur Trash Bangkit Capstone
+Classify ur Trash Bangkit Capstone
