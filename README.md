@@ -47,3 +47,10 @@ Before running the application, ensure you have the following dependencies insta
 ## Important
 
 IMPORTANT: When making a request to the API, use the "form data" body type with the key "image" to upload the image file. Do NOT use JSON format for the request.
+
+## Deploying
+
+when deploying you can just follow below tutorial:
+
+1. https://docs.digitalocean.com/tutorials/app-deploy-flask-app/
+2. https://www.youtube.com/watch?v=YFBRVJPhDGY&ab_channel=TechWithTim
