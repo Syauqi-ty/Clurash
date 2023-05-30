@@ -18,3 +18,32 @@ Before running the application, ensure you have the following dependencies insta
    ```bash
    git clone https://github.com/Syauqi-ty/Clurash
    ```
+
+2. Navigate to directory:
+
+   ```bash
+   cd Cluras
+   ```
+
+3. Setup venv:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+
+4. Install the required library:
+
+   ```bash
+   pip install flask
+   pip install keras
+   pip install pillow
+   pip install numpy
+   pip install tensorflow
+   ```
+
+5. Run the app:
+
+   ```bash
+   python app.py
+   ```
