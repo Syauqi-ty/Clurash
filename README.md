@@ -22,7 +22,7 @@ Before running the application, ensure you have the following dependencies insta
 2. Navigate to directory:
 
    ```bash
-   cd Cluras
+   cd Clurash
    ```
 
 3. Setup venv:
