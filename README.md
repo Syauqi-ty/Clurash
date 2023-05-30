@@ -29,7 +29,7 @@ Before running the application, ensure you have the following dependencies insta
 
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   venv\Scripts\activate
    ```
 
 4. Install the required library:
