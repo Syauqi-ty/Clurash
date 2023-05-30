@@ -47,3 +47,6 @@ Before running the application, ensure you have the following dependencies insta
    ```bash
    python app.py
    ```
+
+Usage
+IMPORTANT: When making a request to the API, use the "form data" body type with the key "image" to upload the image file. Do NOT use JSON format for the request.
