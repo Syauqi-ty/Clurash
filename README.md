@@ -48,5 +48,6 @@ Before running the application, ensure you have the following dependencies insta
    python app.py
    ```
 
-Usage
+## Important
+
 IMPORTANT: When making a request to the API, use the "form data" body type with the key "image" to upload the image file. Do NOT use JSON format for the request.
