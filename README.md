@@ -35,11 +35,7 @@ Before running the application, ensure you have the following dependencies insta
 4. Install the required library:
 
    ```bash
-   pip install flask
-   pip install keras
-   pip install pillow
-   pip install numpy
-   pip install tensorflow
+   pip install -r requirements.txt
    ```
 
 5. Run the app:
