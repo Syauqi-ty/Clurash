@@ -21,8 +21,8 @@ create_table_query = """
     )
 """
 cursor.execute(create_table_query)
-api_bp = Blueprint("api", __name__)
-app = Flask(__name__)
+api_bp = Blueprint("api", _name_)
+app = Flask(_name_)
 model = None  # Define a global variable
 class_names = None
 
@@ -165,10 +165,30 @@ def update_points():
         return jsonify({"error": "User not found"}), 404
 
 
+@api_bp.route('/points', methods=['GET'])
+def get_user_points():
+    username = request.args.get('username')
+
+    # Perform validation on the input data
+    if not username:
+        return jsonify({'error': 'Missing username parameter'}), 400
+
+    # Check if the user exists in the database
+    query = "SELECT points FROM users WHERE username = %s"
+    cursor.execute(query, (username,))
+    user = cursor.fetchone()
+
+    if user:
+        points = user[0]
+        return jsonify({'username': username, 'points': points}), 200
+    else:
+        return jsonify({'error': 'User not found'}), 404
+
+
 app.register_blueprint(api_bp, url_prefix="/api")
 
 # Run the Flask app
-if __name__ == "__main__":
+if _name_ == "_main_":
     port = 5000  # Specify the desired port number
     app.run(port=port)
     print(f"Running on http://127.0.0.1:{port}/")
