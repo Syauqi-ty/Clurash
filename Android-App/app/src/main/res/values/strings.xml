@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Clurash</string>
+    <string name="error_email">Invalid Email Format</string>
+    <string name="error_password">Password minimum 8 characters</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_msg">Don\'t have an account yet?</string>
+    <string name="register">Register</string>
+    <string name="logo">Logo</string>
+    <string name="login_msg">Already Have an Account?</string>
+    <string name="username">username</string>
+    <string name="hello">Hello,</string>
+    <string name="kind_trash">Kind of Trash :</string>
+    <string name="result">Not Detected</string>
+    <string name="tap_cls">Tap Here to Classify Your Trash</string>
+    <string name="reject">Not Getting Permissions.</string>
+    <string name="predict">Predict</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="open_cam">Open Camera</string>
+    <string name="cat_tr">Trash Category</string>
+    <string name="acc">Accuracy</string>
+    <string name="logout_success">Logout Success</string>
+    <string name="point_tv">Point :</string>
+    <string name="result_p">0</string>
+    <string name="sampahNonOrganik">Sampah Non Organik</string>
+    <string name="sampahOrganik">Sampah Organik</string>
+    <string name="artikelSampahOrganik">Apa itu sampah organik? \nSampah organik adalah sampah yang berasal dari sisa-sisa makhluk hidup, baik hewan, tanaman, maupun manusia.\nContoh sampah organik seperti sisa sayuran, buah-buahan, ranting pohon, dan dedaunan kering.</string>
+    <string name="artikelSampahOrganik1">Apa saja jenis sampah organik? \nSampah organik dibagi menjadi 2 yaitu :\n
+        -   Sampah organik kering merupakan sampah
+            yang memiliki kandungan air yang sedikit atau
+            bahakan tidak ada. \n\t\t\t\t-  Sampah organik basah Sampah organik basah
+            merupakan sampah yang memiliki kandungan
+            air yang cukup tinggi sehingga membuat
+            sampah lebih cepat membusuk dan dapat
+            terurai lebih cepat dari sampah organik kering.</string>
+    <string name="artikelSampahOrganik2">Bagaimana cara mengolah sampah organik? \nSampah organik akan berguna jika diolah dengan baik. Berikut cara mengolah sampah organik:\n
+        -   Mengolah sampah organik menjadi kompos
+        -   Sampah organik dijadikan sebagai tambahan
+            pakan ternak
+        -   Sampah organik diolah menjadi biogas.</string>
+    <string name="artikelSampahNonOrganik">Apa itu sampah non organik ? \nSampah non organik merupakan limbah yang dihasilkan dari bahan-bahan yang bukan berasal dari alam (bahan hayati), melainkan dihasilkan dari bahan-bahan buatan manusia atau bahan sintetik (sampah non alami).</string>
+    <string name="artikelSampahNonOrganik1">Apakah non organik dapat di daur ulang ? \nSampah non organik merupakan sampah yang dapat di daur ulang. Pengolahan sampah non organik sangat penting, karena jika diolah secara tepat akan mengurangi dampak negatif sampah terhadap lingkungan.</string>
+    <string name="artikelSampahNonOrganik2">Apa ciri-ciri sampah non organik? \nSampah non organik memiliki beberapa ciri-ciri diantaranya yaitu:\n
+        -   Sulit Terurai
+        -   Terbuat dari Bahan Sintesis
+        -   Bisa di Daur Ulang</string>
+    <string name="artikelSampahNonOrganik3">Bagaimana cara mengolah sampah nonorganik? \nSampah non organik dapat diolah dengan menerapkan prinsip berikut:\n
+        -   Reduce atau mengurangi sampah.
+        -   Reuse atau menggunakan kembali.
+        -   Recycle atau mendaur ulang.</string>
+
+    <string name="redeem">Redeem</string>
+    <string name="req_gofood">Required: 120 Point</string>
+    <string name="vcr_gofood">\t30% Discount</string>
+
+    <string name="req_indomaret">Required: 200 Point</string>
+    <string name="vcr_indomaret">\t50% Discount</string>
+
+    <string name="req_alfamart">Required: 240 Point</string>
+    <string name="vcr_alfamart">\t60% Discount</string>
+
+</resources>
